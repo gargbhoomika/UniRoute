@@ -1,0 +1,150 @@
+html,body
+{
+    background-color: white;
+}
+
+.heading
+{
+    background-color: #01B6AD;
+    height: 140px;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 40px;   
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 2px;
+}
+
+.heading a:link,
+.heading a:visited
+{
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s , transform 0.5s;
+    text-align: center;
+    
+}
+
+.heading a:hover,
+.heading a:active
+{
+    color: #023e58;
+    transform: scale(1.05)
+}
+.logo
+{
+    width: 70%;
+    height: 140px;
+    margin-top: -7px;
+}
+.image-normal-size{
+    width: 450px;
+    height: 450px;
+}
+
+.image-big-size
+{
+    width: 550px;
+    height: 420px;
+}
+.text-big
+{
+    font-size: 150%;
+    text-align: justify;
+    line-height: 1.5;
+}
+.padding
+{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.paddingbtn
+{
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.text-white 
+{
+    background-color: #023e58;
+    color: white;
+    font-size: 230%;
+    font-family: 'Lato', sans-serif; 
+    padding-left: 50px;
+}
+
+.large 
+{
+    font-size: 30px;
+    color: #023e58;
+    font-family: 'Lato', sans-serif;
+}
+
+.greycolor
+{
+    background-color: white;
+    text-align: justify;
+}
+
+.text
+{
+    margin-top: 30px;
+    font-size: 130%;
+    font-family: 'Lato', sans-serif;
+    text-align: justify;
+}
+.ads {
+    width: cover;
+    height: 70%;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    margin-top: 80px;
+}
+
+.fixed
+{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(chitkara6.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: table;
+    height: 80%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    font-size: 250%;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+}
+footer
+{
+    width: 100%;
+    background-color: #01B6AD;
+    padding: 5% 5% 10% 5%;
+    color: white;
+}
+
+.fa
+{
+    padding: 15px;
+    font-size: 25px;
+    color: white;
+    
+}
+
+.fa:hover
+{
+    color: #023e58;
+    text-decoration: none;
+}
+
+@media (max-width: 768px)
+{
+    
+    .fa
+    {
+        font-size: 20px;
+        padding: 10px;
+    }
+}
